@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<title>Form Lessons</title>
+</head>
+<body>
+				<h3>Form&input လေ့ကျင့်ခြင်း</h3>
+				
+			
+				<form><label>Username :</label><input type="text" name="username" size="25" placeholder="Username"><br>
+				<!-- name attributeမဖြစ်မနေပါရမယ် 
+				php ကလှမ်းချိတ်တဲ့အခါလိုအပ်တယ်
+      idနဲ့သဘောတရားချင်းတူတယ်
+				-->
+				
+				
+				<label>Password&nbsp;:
+				<input type="password" name="password" size="25" placeholder="Password">			
+				</label>								
+				<br>
+				<br>
+	  	  	
+	  	
+				<input type="email" placeholder="Email">
+				</input>
+				<br><br>
+				
+			
+				<input name="somename" placeholder="####"
+				oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" 
+				type = "number" maxlength = "4"><br>
+							
+			
+			<br>
+		
+	 <input type="checkbox" name="agree">
+	 <label>Agree</label><br><br>
+	 
+	 <input type="radio" name="gender" value="male">
+	 <label>Male</label><br>
+	 
+	 <input type="radio" name="gender" value="female">
+	 <label>Female</label><br>
+	 
+		<input type="radio" name="gender" value="gay">
+		<label>Gayಥ‿ಥ</label><br><br>
+						
+		<label>Choose Language</label>
+		<select name="choice" size="5">
+			<option selected>Myanmar</option>
+			<option>English</option>
+			<option>Korea</option>
+			<option>Japan</option>
+		 <option>Thailand</option>
+						
+		</select><br>
+		<label>Choose one more Languages</label>
+		<select name="choice" size="5" multiple>
+			<option value="1"selectedl>Myanmar</option>
+			<option value="2">English</option>
+			<option value="3">Korea</option>
+			<option value="4">Japan</option>
+		 <option value="5">Thailand</option>
+				<!-- valueက phpနဲ့ချိတ်တဲ့အခါလိုအပ်တယ် -->
+		</select>
+			<hr>
+			<label>
+			<textarea placeholder="address" rows="13" cols="30" name="address"></textarea><br>
+			
+			<input type="reset" name="res" value="Reset">
+		 <input type="submit" name="submit" value="Login">
+		 	</label>
+				</form><br><br>
+				
+				<!-- file pickခြင်းအပိုင်း -->
+				<form action="" method="" enctype="multipart/form-data">
+					
+					<label>fileရွေးချယ်ခြင်း</label>
+						<input type="file" name="fileuploader"><br><br>
+								
+						<label>image fileရွေးချယ်ခြင်း</label>
+						<input type="file" name="imgpicker" accept="image/*"><br><br>
+				</form><br>
+				
+				Multiple file<br>
+				<input type="file" name="myfile" multiple>
+			<hr>
+			<center>
+							
+							<h5>HTML Lessonများပြီးပါပြီ</h5>					
+			</center>
+			
+			
+			</body>
+</html>
