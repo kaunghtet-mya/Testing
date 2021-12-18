@@ -1,0 +1,59 @@
+body{
+  background-image: url('bg_image1.jpg');
+  background-size: cover;
+  background-repeat: none;
+  height: 100%;
+}
+.box{
+  background-color: #565a5b;
+  text-align: center;
+  width: 400px;
+  position: relative;
+  margin: 50% 50%;
+  transform: translate(-50%,-50%);
+}
+.box h1{
+  color: #b72222;
+}
+.form_username, .form_password{
+  background: transparent;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 2px solid red;
+  display: block;
+  position: relative;
+  margin: 20px auto;
+  color: white;
+  
+}
+.form_username:focus, .form_password:focus{
+  
+  outline: none;
+  border: 2px solid red;
+  width: 250px;
+  padding: 10px;
+}
+.form_btn{
+  background: transparent;
+  border-radius: 5px;
+  border-color: #af1b17;
+  position: relative;
+  margin: 20px auto;
+  color: white;
+  transition: 1000ms;
+  user-select: none;/*selectလုပ်လို့မရအောင်copy/cutလုပ်လို့မရအာင်ရေးထားတာ*/
+}
+ .form_btn:hover{
+   background-color: #8e3417;
+   outline: none;
+ }
+ ::placeholder{
+   color: gray;
+   opacity: 1;
+ }
+ form_btn:active{
+   
+   outline: none;
+   border:2px solid cyan;
+   
+ }
