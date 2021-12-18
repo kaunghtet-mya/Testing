@@ -5,7 +5,7 @@ body{
   height: 100%;
 }
 .box{
-  background-color: #565a5b;
+  background-color: transparent;
   text-align: center;
   width: 400px;
   position: relative;
